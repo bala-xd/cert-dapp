@@ -1,0 +1,29 @@
+{
+  "name": "certmgnt",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "yarn build && npx thirdweb@latest upload dist"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@thirdweb-dev/chains": "^0.1.11",
+    "@thirdweb-dev/react": "^3.11.1",
+    "@thirdweb-dev/sdk": "^3.10.5",
+    "antd": "^5.4.2",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.10.0",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2",
+    "vite": "^3",
+    "vite-plugin-node-polyfills": "^0.7.0"
+  }
+}
